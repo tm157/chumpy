@@ -1,6 +1,8 @@
 chumpy
 ======
 
+## Python3 compatible version for Matt Loper's chumpy package. 
+
 Chumpy is a Python-based framework designed to handle the **auto-differentiation** problem,
 which is to evaluate an expression and its derivatives with respect to its inputs, by use of the chain rule.
 
@@ -13,11 +15,12 @@ Specifically, it provides:
 - Easy access to derivatives via auto differentiation
 - Easy local optimization methods (12 of them: most of which use the derivatives)
 
-Chumpy comes with its own demos, which can be seen by typing the following:
 
-```python
-import chumpy
-chumpy.demo() # prints out a list of possible demos
+Licensing is specified in the attached LICENSE.txt. 
+
+To install 
+```python 
+pip install -e . 
 ```
 
-Licensing is specified in the attached LICENSE.txt.
+### I have not made any changes to the files just converted the files to be compatible to python3
