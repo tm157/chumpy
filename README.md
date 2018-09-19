@@ -23,4 +23,6 @@ To install
 pip install -e . 
 ```
 
-### I have not made any changes to the files just converted the files to be compatible to python3
+### I have not made any changes to the files, just converted the files to be compatible to python3
+
+For further reference please and original code refer to (https://github.com/mattloper/chumpy)
